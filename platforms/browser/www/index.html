@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operações Matemáticas</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- Barra de título da página -->
+    <div class="title-bar">Operações Matemáticas</div>
+    <!-- Container principal da página -->
+    <div class="container">
+      <!-- Grupo de entrada para os números -->
+      <div class="input-group">
+        <!-- Identificador do primeiro campo de entrada -->
+        <input
+          type="number"
+          id="primeiroNumero"
+          placeholder="Digite aqui o Primeiro Número"
+        />
+        <input
+          type="number"
+          id="segundoNumero"
+          placeholder="Digite aqui o Segundo Número"
+        />
+      </div>
+      <div class="input-group">
+        <!-- Grupo de botões as operações -->
+        <button onclick="calcularOperacao(soma)">Somar</button>
+        <button onclick="calcularOperacao(subtracao)">Subtrair</button>
+        <button onclick="calcularOperacao(multiplicacao)">Multiplicar</button>
+        <button onclick="calcularOperacao(divisao)">Dividir</button>
+      </div>
+
+      <!-- Div para exibir o resultado das operações -->
+      <div id="resultado"></div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+/*Corpo da pagina*/
+body {
+  font-family: Arial, sans-serif; /* Fonte utilizada */
+  background-color: #f0f0f0; /* Cor de fundo */
+  margin: 0; /*Remove as margens*/
+  padding: 0; /* Remove os preenchimentos*/
+}
+
+/*Container da pagina*/
+.container {
+  max-width: 400px; /* largura maxima */
+  margin: 50px auto; /* Centraliza verticalmente */
+  padding: 20px; /* Preenchimento interno */
+  text-align: center; /* centraliza o texto*/
+}
+
+/*barra de titulo*/
+.title-bar {
+  background-color: #7c54da; /* Cor da barra */
+  color: #fff; /* Cor do texto */
+  padding: 10px 0; /* padding superior e inferior*/
+  font-size: 24px; /*Tamanho do texto*/
+  font-weight: bold; /* Texto em negrito*/
+  margin-bottom: 20px; /*Espaço inferior*/
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Grupos de entrada */
+.input-group {
+  margin-bottom: 20px; /* espaço inferior*/
+}
+
+/* Entradas dos número  */
+.input-group input {
+  width: 100%; /* largura */
+  padding: 10px; /* preenchimento interno*/
+  font-size: 16px; /* tamanho do texto*/
+  border: 1px solid #ccc; /* borda solida */
+  border-radius: 5px; /*borda arredondada */
+}
+
+/*estilo para os botões*/
+.input-group button {
+  width: 48%; /*largura */
+  padding: 10px; /* preenchimento interno*/
+  margin: 5px; /* Adiciona margem entre os botões */
+  font-size: 16px; /* tamanho da fonte*/
+  border: none; /*remove a borda*/
+  border-radius: 5px; /* borda arredondada*/
+  cursor: pointer; /*altera o curso para uma mãozinha*/
+  background-color: #4caf50; /*cor de fundo*/
+  color: #fff; /*cor do texto*/
+}
+
+/* estilo para o foco dos botões*/
+.input-group button:hover {
+  background-color: #45a049; /* muda o estilo ao passar o mouse em cima */
+}
+
+/* Estilo para o resultado */
+#resultado {
+  font-size: 18px; /* Tamanho da fonte */
+  font-weight: bold; /*fonte como negrito */
+}
+
+/* resultado de erro */
+.error-text {
+  color: red;
+}
